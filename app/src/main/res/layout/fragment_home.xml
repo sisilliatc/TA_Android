@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.sisillia.myapplication.HomeFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+        </LinearLayout>
+
+
+        <!--menu 1-2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+            <!--menu 1-->
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:background="@drawable/rounded_black"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/laporanhasil"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circledarkgreen"
+                    app:srcCompat="@drawable/ic_border_color_black_24dp"
+                    android:padding="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkgreen"
+                    android:textSize="13dp"
+                    android:text="Laporan Hasil"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/darkgreen"
+                    android:textSize="10dp"
+                    android:gravity="center"
+                    android:text="untuk laporan hasil produksi pertanian"/>
+            </LinearLayout>
+            <!--end of menu 1-->
+
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:background="@drawable/rounded_black"
+                android:layout_marginRight="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circlegreen"
+                    app:srcCompat="@drawable/ic_comment_black_24dp"
+                    android:padding="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkgreen"
+                    android:textSize="13dp"
+                    android:text="Kritik dan Saran"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/darkgreen"
+                    android:textSize="10dp"
+                    android:gravity="center"
+                    android:text="untuk mengirim kritik/saran ke dinas"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!--end of menu 1-2-->
+
+        <!--menu 1-2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:background="@drawable/rounded_black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circledarkorange"
+                    app:srcCompat="@drawable/ic_info_black_24dp"
+                    android:padding="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkorange"
+                    android:textSize="13dp"
+                    android:text="Info"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/darkorange"
+                    android:textSize="10dp"
+                    android:gravity="center"
+                    android:text="Berisikan informasi pertanian terupdate"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:background="@drawable/rounded_black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circleorange"
+                    app:srcCompat="@drawable/ic_help_black_24dp"
+                    android:padding="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkorange"
+                    android:textSize="13dp"
+                    android:text="Bantuan"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/darkorange"
+                    android:textSize="10dp"
+                    android:gravity="center"
+                    android:text="Petunjuk penggunaan aplikasi"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!--end of menu 1-2-->
+
+    </LinearLayout>
+
+</FrameLayout>

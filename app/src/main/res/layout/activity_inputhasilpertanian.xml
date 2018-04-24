@@ -62,7 +62,8 @@
                         <Spinner
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"></Spinner>
+                            android:layout_weight="1"
+                            android:id="@+id/time"></Spinner>
 
                     </LinearLayout>
 
@@ -91,7 +92,8 @@
                             android:layout_height="30dp"
                             android:layout_marginBottom="3dp"
                             android:layout_marginTop="2dp"
-                            android:layout_weight="1"></Spinner>
+                            android:layout_weight="1"
+                            android:id="@+id/jenis_tanaman"></Spinner>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -127,6 +129,7 @@
                             android:layout_weight="1"
                             android:hint="Luas lahan"
                             android:inputType="number"
+                            android:id="@+id/luas_lahan"
                             android:textSize="13dp"></EditText>
 
                     </LinearLayout>
@@ -157,6 +160,7 @@
                             android:layout_marginTop="2dp"
                             android:layout_weight="1"
                             android:hint="hasil produksi"
+                            android:id="@+id/hasil_prod"
                             android:inputType="number"
                             android:textSize="13dp"></EditText>
                     </LinearLayout>
